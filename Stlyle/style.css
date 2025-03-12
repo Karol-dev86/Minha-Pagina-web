@@ -9,6 +9,7 @@
     font-size: 22px;
     flex-direction: row;
     gap: 300px;
+    padding: 20px;
 }
 .cabecalho a{
     text-decoration: none;
@@ -16,14 +17,63 @@
     margin-right: 20px;
     
 }
+.cabecalho img {
+    height: auto;
+    width: 150px;
+
+}
+
+ body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    overflow: hidden;
+ }
+
+.apresentacao {
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+}
+.apresentacao img{
+    height: auto;
+    width: 800px;
+    margin-left: 300px;
+}
+.apresentacao p{
+    text-align: center;
+    
+} 
 
 .rodape {
     width: 100%;
-    padding: 5px;   
-    text-align: center;
+    height: 20px;
+    padding: 24px;   
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
-    color: black;
+    color: white;
     background-color: blue;
+    display: flex;
+
 }
+.redes__sociais__links{
+
+   
+}
+.redes__sociais__links img{
+height: 20px;
+
+
+}
+.logo__rodape {
+margin-left: 980px;
+width: 70px;
+}
+
+.conteudo {
+    
+}
+
+
+
