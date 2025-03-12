@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+
+}
+.cabecalho {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    flex-direction: row;
+    gap: 300px;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 20px;
+    
+}
+
+.rodape {
+    width: 100%;
+    padding: 5px;   
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    background-color: blue;
+}
